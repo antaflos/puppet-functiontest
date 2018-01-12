@@ -13,6 +13,10 @@ compiled.
 This is especially troublesome if there are different versions of the same
 utility method in different environments.
 
+We experienced this issue using the https://github.com/Icinga/puppet-icinga2
+module. It works very much in the same way this simplified module does. See
+next section for an in-depth explanation.
+
 ## What does the module do?
 
 The main class `functiontest` manages a simple text file
