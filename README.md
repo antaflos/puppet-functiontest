@@ -124,6 +124,9 @@ It is not too difficult to reproduce this issue, but it requires apparently at
 least two Puppet agent nodes which are assigend two different Puppet
 environments.
 
+We run Puppet 5 on Ubuntu 14.04 and 16.04. Puppetserver 5.1.4 (5.1.4-1xenial),
+Puppet Agent 5.3.3 (5.3.3-1trusty and 5.3.3-1xenial).
+
 Simply add the module `functiontest` to the Puppetfile in your control repo's
 `production` environment. Then create another environment, e.g.
 `production_test1` in your control repo and add the `functiontest` module to
