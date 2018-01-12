@@ -1,0 +1,13 @@
+{
+  "name": "antaflos-functiontest",
+  "version": "1.0.0",
+  "author": "Andreas Ntaflos",
+  "summary": "Testing parser functions with utility methods and failing environment isolation",
+  "description": "Testing parser functions with utility methods and failing environment isolation",
+  "license": "Apache-2.0",
+  "source": "git@github.com:antaflos/puppet-functiontest.git",
+  "project_page": "https://github.com/antaflos/puppet-functiontest",
+  "issues_url": "https://github.com/antaflos/puppet-functiontest/issues",
+  "dependencies": [],
+  "operatingsystem_support": []
+}
